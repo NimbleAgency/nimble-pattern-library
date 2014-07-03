@@ -1,0 +1,36 @@
+{
+  "name": "nimble-starter-files",
+  "version": "0.0.1",
+  "description": "Starter files for Nimble Agency web projects",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.5",
+    "gulp-autoprefixer": "~0.0.7",
+    "gulp-cache": "~0.2.0",
+    "gulp-changed": "~0.4.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-imagemin": "~0.6.1",
+    "gulp-jshint": "~1.6.3",
+    "gulp-livereload": "~2.1.0",
+    "gulp-minify-css": "~0.3.5",
+    "gulp-minify-html": "~0.1.4",
+    "gulp-rename": "~1.2.0",
+    "gulp-ruby-sass": "~0.5.0",
+    "gulp-strip-debug": "~0.3.0",
+    "gulp-uglify": "~0.3.1",
+    "gulp-util": "~2.2.19",
+    "tiny-lr": "~0.0.7"
+  },
+  "devDependencies": {
+    "gulp-notify": "~1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Jeff Nordstedt - The Nimble Agency",
+  "license": "BSD-2-Clause"
+}

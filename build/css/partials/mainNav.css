@@ -1,0 +1,5 @@
+/* line 1, mainNav.scss */
+nav.mainNav a {
+  border: 1px solid red;
+  display: inline-block;
+}

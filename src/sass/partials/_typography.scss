@@ -1,0 +1,29 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+// Links
+a {
+	color: $actionColor;
+	&:hover { color: darken($actionColor, 20);}
+	&.button {
+		background: $actionColor;
+		color: white;
+		display: inline-block;
+		padding: $padding/2 $padding;
+		transition: background-color 0.3s ease;
+		&:hover{ background: darken($actionColor, 20);}
+		&.large {
+			padding: $padding $padding*2;
+			text-transform: uppercase;
+		}
+		&.small {
+			padding: 5px 10px;
+			font-size: .875rem;
+
+		}
+
+	}
+
+}

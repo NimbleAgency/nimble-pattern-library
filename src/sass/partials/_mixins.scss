@@ -1,0 +1,34 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Breakpoints 
+
+@mixin breakpoint($point) {
+  @if $point == smallOnly {
+    @media (max-width: $smallScreen) { @content; }
+  }
+  @if $point == tweener {
+    @media (min-width: $smallScreen + 1) { @content; }
+  }
+  @if $point == upToMedium {
+    @media (max-width: $mediumScreen - 1) { @content; }
+  }
+
+  @else if $point == medium {
+    @media (min-width: $mediumScreen) { @content; }
+  }
+  @else if $point == mediumOnly {
+  	@media (min-width: $smallScreen + 1) and (max-width: $mediumScreen) { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: $largeScreen)  { @content; }
+  }
+  @else if $point == xlarge {
+    @media (min-width: $xlargeScreen)  { @content; }
+  }
+}

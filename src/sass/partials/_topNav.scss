@@ -1,0 +1,55 @@
+nav.mainNav {
+	@include clearfix;
+	@include breakpoint(medium) {
+		background: ghostwhite;
+		border: 1px solid gainsboro;
+		margin: $padding 0;
+		padding: $padding;
+
+	}
+	ul { 
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		transform: scaleY(0);    
+	    transform-origin: top;
+	    transition: transform 0.2s ease;
+
+		li {
+			display: none;
+			width: 100%;
+		}
+
+		@include breakpoint(medium) {
+			transform: none;
+			text-align: center;
+			li { 
+				display: inline-block;
+				width: auto;
+			}
+			a.close { display: none;}
+		}
+		body.show-nav & {
+			transform: scaleY(1);
+			li {display: block;}
+		}
+	}
+	a {
+		display: block;
+		border: 1px solid $mediumGrey;
+		background: darken($lightGrey, 3);
+		padding: $padding/2 $padding;
+		&.show-hide-navigation {
+			position: absolute;
+			top: 0;
+			right: 0;
+			@include breakpoint(medium) {
+				display: none;
+			}
+			body.show-nav & {
+				display: none;
+			}
+		}
+	}
+}
+
