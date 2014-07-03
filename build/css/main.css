@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-/* line 3, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 3, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,7 +11,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 12, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 12, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -24,7 +24,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 22, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 22, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 body {
   margin: 0;
 }
@@ -36,7 +36,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 35, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 35, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 article,
 aside,
 details,
@@ -56,7 +56,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 55, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 55, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -71,7 +71,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 68, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 68, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -81,7 +81,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 78, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 78, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -92,7 +92,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 90, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 90, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 a {
   background: transparent;
   text-decoration: none;
@@ -101,7 +101,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 100, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 100, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -112,7 +112,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 112, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 112, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -120,7 +120,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 120, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 120, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -129,7 +129,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 129, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 129, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -138,7 +138,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 138, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 138, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -147,7 +147,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 147, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 147, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -156,7 +156,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 156, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 156, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -164,7 +164,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 164, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 164, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -173,12 +173,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 172, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 172, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 176, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 176, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -188,7 +188,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 187, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 187, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 img {
   border: 0;
 }
@@ -196,7 +196,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 195, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 195, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -206,7 +206,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 206, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 206, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -214,7 +214,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 214, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 214, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -225,7 +225,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 224, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 224, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -233,7 +233,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 232, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 code,
 kbd,
 pre,
@@ -254,7 +254,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 255, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 255, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button,
 input,
 optgroup,
@@ -271,7 +271,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 269, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 269, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -282,7 +282,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 280, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 280, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -295,7 +295,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 293, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -309,7 +309,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 305, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 305, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -318,7 +318,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 314, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 314, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -329,7 +329,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 325, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 325, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -341,7 +341,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 337, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 337, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -357,7 +357,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 349, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 349, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -368,7 +368,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 360, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 360, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -383,7 +383,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 373, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 373, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -392,7 +392,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 382, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 382, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -403,7 +403,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 393, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 393, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -414,7 +414,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 402, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 402, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -423,7 +423,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 411, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 411, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -433,13 +433,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 422, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 422, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 427, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_normalize.scss */
+/* line 427, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -452,7 +452,7 @@ th {
   font-weight: normal;
   font-style: normal;
 }
-/* line 12, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 12, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -466,64 +466,64 @@ th {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 26, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 26, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-menu:before {
   content: "\e60a";
 }
 
-/* line 29, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 29, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-close:before {
   content: "\e605";
 }
 
-/* line 32, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 32, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-minus:before {
   content: "\e600";
 }
 
-/* line 35, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 35, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-plus:before {
   content: "\e601";
 }
 
-/* line 38, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 38, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-mail:before {
   content: "\e606";
 }
 
-/* line 41, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 41, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-googleplus:before {
   content: "\e602";
 }
 
-/* line 44, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 44, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-facebook:before {
   content: "\e603";
 }
 
-/* line 47, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 47, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-twitter:before {
   content: "\e60e";
 }
 
-/* line 50, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 50, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-feed:before {
   content: "\e604";
 }
 
-/* line 53, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_icons.scss */
+/* line 53, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_icons.scss */
 .icon-youtube:before {
   content: "\e60f";
 }
 
-/* line 2, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_mixins.scss */
+/* line 2, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_mixins.scss */
 nav.mainNav:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 1, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+  /* line 1, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
   nav.mainNav {
     background: ghostwhite;
     border: 1px solid gainsboro;
@@ -531,7 +531,7 @@ nav.mainNav:after {
     padding: 15px;
   }
 }
-/* line 10, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 10, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 nav.mainNav ul {
   list-style-type: none;
   margin: 0;
@@ -545,71 +545,71 @@ nav.mainNav ul {
   -webkit-transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
 }
-/* line 18, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 18, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 nav.mainNav ul li {
   display: none;
   width: 100%;
 }
 @media (min-width: 768px) {
-  /* line 10, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+  /* line 10, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
   nav.mainNav ul {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
     text-align: center;
   }
-  /* line 26, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+  /* line 26, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
   nav.mainNav ul li {
     display: inline-block;
     width: auto;
   }
-  /* line 30, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+  /* line 30, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
   nav.mainNav ul a.close {
     display: none;
   }
 }
-/* line 32, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 32, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 body.show-nav nav.mainNav ul {
   -webkit-transform: scaleY(1);
   -ms-transform: scaleY(1);
   transform: scaleY(1);
 }
-/* line 34, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 34, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 body.show-nav nav.mainNav ul li {
   display: block;
 }
-/* line 37, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 37, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 nav.mainNav a {
   display: block;
   border: 1px solid gainsboro;
   background: #e9e9ff;
   padding: 7.5px 15px;
 }
-/* line 42, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 42, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 nav.mainNav a.show-hide-navigation {
   position: absolute;
   top: 0;
   right: 0;
 }
 @media (min-width: 768px) {
-  /* line 42, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+  /* line 42, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
   nav.mainNav a.show-hide-navigation {
     display: none;
   }
 }
-/* line 49, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_topNav.scss */
+/* line 49, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_topNav.scss */
 body.show-nav nav.mainNav a.show-hide-navigation {
   display: none;
 }
 
-/* line 1, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+/* line 1, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
 .wrapper {
   width: 98%;
   margin: 0 auto;
   max-width: 1080px;
 }
 
-/* line 7, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+/* line 7, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
 header.siteHeader, section.contentSlider, article, aside.sidebar {
   background: ghostwhite;
   border: 1px solid gainsboro;
@@ -617,13 +617,13 @@ header.siteHeader, section.contentSlider, article, aside.sidebar {
   padding: 15px;
 }
 
-/* line 14, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+/* line 14, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
 article {
   background: purple;
 }
 
 @media (min-width: 481px) {
-  /* line 17, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 17, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   article {
     display: block;
     float: left;
@@ -633,7 +633,7 @@ article {
     background: green;
   }
 
-  /* line 21, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 21, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   aside.sidebar {
     display: block;
     float: left;
@@ -643,7 +643,7 @@ article {
   }
 }
 @media (min-width: 768px) {
-  /* line 28, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 28, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   article {
     display: block;
     float: left;
@@ -653,7 +653,7 @@ article {
     background: yellow;
   }
 
-  /* line 33, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 33, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   aside.sidebar {
     display: block;
     float: left;
@@ -663,7 +663,7 @@ article {
   }
 }
 @media (min-width: 1224px) {
-  /* line 39, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 39, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   article {
     display: block;
     float: left;
@@ -673,7 +673,7 @@ article {
     background: orange;
   }
 
-  /* line 44, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 44, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   aside.sidebar {
     display: block;
     float: left;
@@ -683,7 +683,7 @@ article {
   }
 }
 @media (min-width: 1600px) {
-  /* line 49, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 49, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   article {
     display: block;
     float: left;
@@ -693,7 +693,7 @@ article {
     background: red;
   }
 
-  /* line 54, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_layout.scss */
+  /* line 54, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_layout.scss */
   aside.sidebar {
     display: block;
     float: left;
@@ -702,64 +702,64 @@ article {
     width: 31.31313%;
   }
 }
-/* line 2, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_mixins.scss */
+/* line 2, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_mixins.scss */
 main:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 1, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 1, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 * {
   margin: 0;
 }
 
-/* line 4, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 4, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 html, body {
   height: 100%;
 }
 
-/* line 7, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 7, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -142px;
 }
 
-/* line 12, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 12, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 .page-wrap:after {
   content: "";
   display: block;
 }
 
-/* line 16, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 16, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
   height: 142px;
 }
 
-/* line 20, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_stickyFooter.scss */
+/* line 20, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_stickyFooter.scss */
 .site-footer {
   background: ghostwhite;
   border: 1px solid gainsboro;
   padding: 15px;
 }
 
-/* line 1, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 1, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
 }
 
-/* line 7, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 7, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a {
   color: dodgerblue;
 }
-/* line 9, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 9, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a:hover {
   color: #005db7;
 }
-/* line 10, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 10, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a.button {
   background: dodgerblue;
   color: white;
@@ -768,51 +768,51 @@ a.button {
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
-/* line 16, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 16, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a.button:hover {
   background: #005db7;
 }
-/* line 17, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 17, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a.button.large {
   padding: 15px 30px;
   text-transform: uppercase;
 }
-/* line 21, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_typography.scss */
+/* line 21, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_typography.scss */
 a.button.small {
   padding: 5px 10px;
   font-size: .875rem;
 }
 
 /* Generic Utility */
-/* line 2, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 2, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 .hide {
   position: absolute;
   top: -9999px;
   left: -9999px;
 }
 
-/* line 8, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 8, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent {
   position: relative;
 }
-/* line 10, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 10, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav {
   overflow: hidden;
   margin: 0 0 -1px;
   position: relative;
   z-index: 100;
 }
-/* line 16, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 16, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav li {
   width: 97px;
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 22, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 22, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav li.last {
   margin-right: 0;
 }
-/* line 23, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 23, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav li a {
   display: block;
   padding: 5px;
@@ -822,27 +822,27 @@ a.button.small {
   text-align: center;
   border: 1px solid gainsboro;
 }
-/* line 31, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 31, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav li a:hover {
   background-color: gainsboro;
 }
-/* line 32, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 32, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent .nav li a.current {
   border-bottom: 1px solid white;
   background-color: white;
   color: #333333;
 }
-/* line 40, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 40, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent ul {
   list-style: none;
   margin: 0;
 }
-/* line 43, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 43, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 #tabContent ul ul {
   list-style-type: disc;
 }
 
-/* line 50, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_organicTabs.scss */
+/* line 50, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_organicTabs.scss */
 .list-wrap {
   background: white;
   border: 1px solid gainsboro;
@@ -851,7 +851,7 @@ a.button.small {
   padding-bottom: 15px;
   height: auto !important;
 }
-/* line 2, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/partials/_mixins.scss */
+/* line 2, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/partials/_mixins.scss */
 .list-wrap:after {
   content: "";
   display: table;
@@ -860,7 +860,7 @@ a.button.small {
 
 /* v1.0.5 */
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
-/* line 3, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 3, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .royalSlider {
   width: 600px;
   height: 400px;
@@ -868,17 +868,17 @@ a.button.small {
   direction: ltr;
 }
 
-/* line 9, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 9, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .royalSlider > * {
   float: left;
 }
 
-/* line 13, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 13, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsWebkit3d .rsSlide {
   -webkit-transform: translateZ(0);
 }
 
-/* line 18, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 18, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsWebkit3d .rsSlide,
 .rsWebkit3d .rsContainer,
 .rsWebkit3d .rsThumbs,
@@ -892,14 +892,14 @@ a.button.small {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 30, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 30, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsFade.rsWebkit3d .rsSlide,
 .rsFade.rsWebkit3d img,
 .rsFade.rsWebkit3d .rsContainer {
   -webkit-transform: none;
 }
 
-/* line 35, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 35, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsOverflow {
   width: 100%;
   height: 100%;
@@ -909,7 +909,7 @@ a.button.small {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 43, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 43, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVisibleNearbyWrap {
   width: 100%;
   height: 100%;
@@ -920,14 +920,14 @@ a.button.small {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 52, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 52, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVisibleNearbyWrap .rsOverflow {
   position: absolute;
   left: 0;
   top: 0;
 }
 
-/* line 58, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 58, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsContainer {
   position: relative;
   width: 100%;
@@ -935,19 +935,19 @@ a.button.small {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 65, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 65, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsArrow,
 .rsThumbsArrow {
   cursor: pointer;
 }
 
-/* line 70, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 70, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsThumb {
   float: left;
   position: relative;
 }
 
-/* line 76, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 76, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsArrow,
 .rsNav,
 .rsThumbsArrow {
@@ -956,7 +956,7 @@ a.button.small {
   transition: opacity 0.3s linear;
 }
 
-/* line 85, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 85, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsHidden {
   opacity: 0;
   visibility: hidden;
@@ -964,7 +964,7 @@ a.button.small {
   transition: visibility 0s linear 0.3s,opacity 0.3s linear;
 }
 
-/* line 95, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 95, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsGCaption {
   width: 100%;
   float: left;
@@ -972,7 +972,7 @@ a.button.small {
 }
 
 /* Fullscreen options, very important ^^ */
-/* line 102, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 102, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .royalSlider.rsFullscreen {
   position: fixed !important;
   height: auto !important;
@@ -986,7 +986,7 @@ a.button.small {
   right: 0 !important;
 }
 
-/* line 115, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 115, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .royalSlider .rsSlide.rsFakePreloader {
   opacity: 1 !important;
   -webkit-transition: 0s;
@@ -994,7 +994,7 @@ a.button.small {
   display: none;
 }
 
-/* line 124, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 124, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsSlide {
   position: absolute;
   left: 0;
@@ -1005,26 +1005,26 @@ a.button.small {
   width: 100%;
 }
 
-/* line 135, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 135, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .royalSlider.rsAutoHeight,
 .rsAutoHeight .rsSlide {
   height: auto;
 }
 
-/* line 140, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 140, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsContent {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-/* line 146, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 146, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsPreloader {
   position: absolute;
   z-index: 0;
 }
 
-/* line 151, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 151, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsNav {
   -moz-user-select: -moz-none;
   -webkit-user-select: none;
@@ -1032,12 +1032,12 @@ a.button.small {
   user-select: none;
 }
 
-/* line 156, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 156, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsNavItem {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);
 }
 
-/* line 160, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 160, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsThumbs {
   cursor: pointer;
   position: relative;
@@ -1046,20 +1046,20 @@ a.button.small {
   z-index: 22;
 }
 
-/* line 167, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 167, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsTabs {
   float: left;
   background: none !important;
 }
 
-/* line 171, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 171, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsTabs,
 .rsThumbs {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* line 178, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 178, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVideoContainer {
   /*left: 0;
   top: 0;
@@ -1076,7 +1076,7 @@ a.button.small {
   position: relative;
 }
 
-/* line 193, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 193, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVideoFrameHolder {
   position: absolute;
   left: 0;
@@ -1086,12 +1086,12 @@ a.button.small {
   -webkit-transition: .3s;
 }
 
-/* line 201, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 201, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVideoFrameHolder.rsVideoActive {
   opacity: 1;
 }
 
-/* line 204, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 204, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVideoContainer iframe,
 .rsVideoContainer video,
 .rsVideoContainer embed,
@@ -1105,7 +1105,7 @@ a.button.small {
 }
 
 /* ios controls over video bug, shifting video */
-/* line 216, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 216, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsVideoContainer.rsIOSVideo iframe,
 .rsVideoContainer.rsIOSVideo video,
 .rsVideoContainer.rsIOSVideo embed {
@@ -1115,7 +1115,7 @@ a.button.small {
   padding-right: 44px;
 }
 
-/* line 225, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 225, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsABlock {
   left: 0;
   top: 0;
@@ -1123,27 +1123,27 @@ a.button.small {
   z-index: 15;
 }
 
-/* line 233, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 233, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 img.rsImg {
   max-width: none;
 }
 
-/* line 237, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 237, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .grab-cursor {
   cursor: url(grab.png) 8 8, move;
 }
 
-/* line 241, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 241, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .grabbing-cursor {
   cursor: url(grabbing.png) 8 8, move;
 }
 
-/* line 245, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 245, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsNoDrag {
   cursor: auto;
 }
 
-/* line 249, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_royalslider.scss */
+/* line 249, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_royalslider.scss */
 .rsLink {
   left: 0;
   top: 0;
@@ -1173,7 +1173,7 @@ img.rsImg {
 *  If you don't some part - just delete it
 * 
 ******************************/
-/* line 20, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 20, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .contentSlider {
   width: 100%;
 }
@@ -1184,7 +1184,7 @@ img.rsImg {
 *  1. Arrows
 *
 ****************/
-/* line 40, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 40, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsArrow {
   height: 100%;
   width: 44px;
@@ -1194,37 +1194,37 @@ img.rsImg {
   z-index: 21;
 }
 
-/* line 48, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 48, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsVer .rsArrow {
   width: 100%;
   height: 44px;
 }
 
-/* line 53, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 53, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsVer .rsArrowLeft {
   top: 0;
   left: 0;
 }
 
-/* line 54, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 54, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsVer .rsArrowRight {
   bottom: 0;
   left: 0;
 }
 
-/* line 56, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 56, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsHor .rsArrowLeft {
   left: 0;
   top: 0;
 }
 
-/* line 57, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 57, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsHor .rsArrowRight {
   right: 0;
   top: 0;
 }
 
-/* line 59, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 59, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsArrowIcn {
   width: 32px;
   height: 32px;
@@ -1241,32 +1241,32 @@ img.rsImg {
   border-radius: 2px;
 }
 
-/* line 77, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 77, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsArrowIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 81, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 81, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn {
   background-position: -64px -32px;
 }
 
-/* line 82, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 82, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn {
   background-position: -64px -64px;
 }
 
-/* line 84, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 84, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsVer .rsArrowLeft .rsArrowIcn {
   background-position: -96px -32px;
 }
 
-/* line 85, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 85, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsVer .rsArrowRight .rsArrowIcn {
   background-position: -96px -64px;
 }
 
-/* line 87, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 87, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsArrowDisabled .rsArrowIcn {
   opacity: .2;
   filter: alpha(opacity=20);
@@ -1278,7 +1278,7 @@ img.rsImg {
 *  2. Bullets
 *
 ****************/
-/* line 96, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 96, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsBullets {
   z-index: 35;
   width: 100%;
@@ -1289,7 +1289,7 @@ img.rsImg {
   overflow: hidden;
 }
 
-/* line 105, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 105, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsBullet {
   width: 12px;
   height: 12px;
@@ -1300,7 +1300,7 @@ img.rsImg {
   margin: 3px;
 }
 
-/* line 114, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 114, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsBullet span {
   display: block;
   width: 12px;
@@ -1309,7 +1309,7 @@ img.rsImg {
   background: #333333;
 }
 
-/* line 121, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 121, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsBullet.rsNavSelected span {
   background-color: dodgerblue;
 }
@@ -1319,13 +1319,13 @@ img.rsImg {
 *  3. Thumbnails
 *
 ****************/
-/* line 135, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 135, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsHor {
   width: 100%;
   height: 72px;
 }
 
-/* line 139, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 139, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsVer {
   width: 96px;
   height: 100%;
@@ -1334,19 +1334,19 @@ img.rsImg {
   right: 0;
 }
 
-/* line 146, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 146, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {
   position: relative;
   height: 100%;
 }
 
-/* line 150, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 150, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {
   position: relative;
   width: 100%;
 }
 
-/* line 154, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 154, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumb {
   float: left;
   overflow: hidden;
@@ -1354,30 +1354,30 @@ img.rsImg {
   height: 72px;
 }
 
-/* line 160, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 160, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumb img {
   width: 100%;
   height: 100%;
 }
 
-/* line 164, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 164, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected {
   background: #02874a;
 }
 
-/* line 167, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 167, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumb.rsNavSelected img {
   opacity: 0.3;
   filter: alpha(opacity=30);
 }
 
-/* line 171, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 171, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTmb {
   display: block;
 }
 
 /* Thumbnails with text */
-/* line 176, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 176, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTmb h5 {
   font-size: 16px;
   margin: 0;
@@ -1386,7 +1386,7 @@ img.rsImg {
   color: #FFF;
 }
 
-/* line 183, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 183, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTmb span {
   color: #DDD;
   margin: 0;
@@ -1396,7 +1396,7 @@ img.rsImg {
 }
 
 /* Thumbnails arrow icons */
-/* line 194, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 194, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsArrow {
   height: 100%;
   width: 20px;
@@ -1408,42 +1408,42 @@ img.rsImg {
   background: rgba(0, 0, 0, 0.75);
 }
 
-/* line 204, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 204, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsArrow:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* line 207, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 207, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrow {
   width: 100%;
   height: 20px;
 }
 
-/* line 211, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 211, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {
   top: 0;
   left: 0;
 }
 
-/* line 212, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 212, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight {
   bottom: 0;
   left: 0;
 }
 
-/* line 214, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 214, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {
   left: 0;
   top: 0;
 }
 
-/* line 215, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 215, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight {
   right: 0;
   top: 0;
 }
 
-/* line 217, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 217, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsArrowIcn {
   width: 16px;
   height: 16px;
@@ -1456,45 +1456,45 @@ img.rsImg {
   background: url("rs-default.png");
 }
 
-/* line 229, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 229, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -128px -32px;
 }
 
-/* line 230, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 230, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -128px -48px;
 }
 
-/* line 232, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 232, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {
   background-position: -144px -32px;
 }
 
-/* line 233, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 233, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {
   background-position: -144px -48px;
 }
 
-/* line 235, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 235, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsThumbsArrowDisabled {
   display: none !important;
 }
 
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {
-  /* line 239, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+  /* line 239, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
   .rsDefault .rsThumb {
     width: 59px;
     height: 44px;
   }
 
-  /* line 243, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+  /* line 243, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
   .rsDefault .rsThumbsHor {
     height: 44px;
   }
 
-  /* line 246, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+  /* line 246, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
   .rsDefault .rsThumbsVer {
     width: 59px;
   }
@@ -1504,7 +1504,7 @@ img.rsImg {
 *  4. Tabs
 *
 ****************/
-/* line 260, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 260, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTabs {
   width: 100%;
   height: auto;
@@ -1515,7 +1515,7 @@ img.rsImg {
   position: relative;
 }
 
-/* line 267, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 267, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTab {
   display: inline-block;
   cursor: pointer;
@@ -1538,20 +1538,20 @@ img.rsImg {
   *zoom: 1;
 }
 
-/* line 291, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 291, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTab:first-child {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-/* line 297, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 297, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTab:last-child {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   border-right: 1px solid #cfcfcf;
 }
 
-/* line 305, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 305, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTab:active {
   border: 1px solid #D9D9DD;
   background-color: #f4f4f4;
@@ -1559,7 +1559,7 @@ img.rsImg {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;
 }
 
-/* line 310, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 310, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsTab.rsNavSelected {
   color: #FFF;
   border: 1px solid #999;
@@ -1578,7 +1578,7 @@ img.rsImg {
 *  5. Fullscreen button
 *
 ****************/
-/* line 331, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 331, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsFullscreenBtn {
   right: 0;
   top: 0;
@@ -1590,7 +1590,7 @@ img.rsImg {
   cursor: pointer;
 }
 
-/* line 342, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 342, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsFullscreenIcn {
   display: block;
   margin: 6px;
@@ -1603,12 +1603,12 @@ img.rsImg {
   border-radius: 2px;
 }
 
-/* line 355, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 355, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsFullscreenIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 358, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 358, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault.rsFullscreen .rsFullscreenIcn {
   background-position: -32px 0;
 }
@@ -1618,7 +1618,7 @@ img.rsImg {
 *  6. Play/close video button
 *
 ****************/
-/* line 372, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 372, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsPlayBtn {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
   width: 64px;
@@ -1628,7 +1628,7 @@ img.rsImg {
   cursor: pointer;
 }
 
-/* line 380, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 380, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsPlayBtnIcon {
   width: 64px;
   display: block;
@@ -1642,19 +1642,19 @@ img.rsImg {
   *background-color: #000;
 }
 
-/* line 396, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 396, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 399, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 399, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsBtnCenterer {
   position: absolute;
   left: 50%;
   top: 50%;
 }
 
-/* line 404, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 404, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn {
   right: 0;
   top: 0;
@@ -1667,13 +1667,13 @@ img.rsImg {
   -webkit-transform: translateZ(0);
 }
 
-/* line 416, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 416, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {
   top: -38px;
   right: -6px;
 }
 
-/* line 421, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 421, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn {
   margin: 6px;
   width: 32px;
@@ -1684,7 +1684,7 @@ img.rsImg {
   *background-color: #000;
 }
 
-/* line 430, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 430, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsCloseVideoIcn:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -1694,7 +1694,7 @@ img.rsImg {
 *  7. Preloader
 *
 ****************/
-/* line 442, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 442, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsPreloader {
   width: 20px;
   height: 20px;
@@ -1710,7 +1710,7 @@ img.rsImg {
 *  8. Global caption
 *
 ****************/
-/* line 461, ../../../../../../Users/Nimble/Sites/Base Gulp Build/src/sass/vendor/_rs-default.scss */
+/* line 461, ../../../../../../Users/Nimble/Sites/Gulp Kindling/src/sass/vendor/_rs-default.scss */
 .rsDefault .rsGCaption {
   position: absolute;
   float: none;
