@@ -29,6 +29,8 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    padding: 0;
+    margin: 0;
 }
 
 article,aside,details,figcaption,figure,
@@ -100,3 +102,5 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+img { max-width: 100%;}

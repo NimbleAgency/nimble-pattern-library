@@ -9,10 +9,9 @@
   		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/build/css/main.min.css">
 		
-		<!-- Google Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-		
-		<script src="/build/scripts/lib/modernizr.js"></script>
+		<!-- Typekit -->
+		<script type="text/javascript" src="//use.typekit.net/jdg5bwm.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<script>
 			// Picture element HTML5 shiv

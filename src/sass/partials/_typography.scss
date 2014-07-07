@@ -1,5 +1,5 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $textFont;
 	line-height: 1.5;
 }
 
@@ -26,4 +26,19 @@ a {
 
 	}
 
+}
+
+h1.pageTitle {
+	font-family: $strongFont;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 1.2;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	padding-bottom: 18px;
+	&:last-of-type { padding-bottom: none;}
 }

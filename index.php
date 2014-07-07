@@ -1,89 +1,38 @@
 <?php include("parts/doctype.php"); ?>
 	<body>
 		<div class="page-wrap">
+			
+				
+			
+			<?php include("parts/topNav.php"); ?>
+			<header class="siteHeader interior">
+				<h1>About Irv Rothman</h1>
+				<a href="#"><img src="/build/images/gutsball-logo.png" alt="Irv Rothman's Gutsball Leadership" class="logo"></a>
+			</header>
 			<div class="wrapper">
-				
-				<?php include("parts/topNav.php"); ?>
-				
-				<header class="siteHeader">
-					<h1>Site Title</h1>
-				</header>
-				
-				<section id="content-slider-1" class="royalSlider contentSlider rsDefault">
-					  <div>
-					    <h3>Slide HTML Text</h3>
-					    <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.  These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. </p>
-					    <blockquote>This is dummy copy. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense. Why, you can't even read it!  It is strictly for mock-ups. You may mock it up as strictly as you wish.</blockquote>
-					    <p>After all, you have many other things you should be doing. Who's paying you to waste this time, anyway?</p>
-					  </div>
-					  <div>
-					    <img src="http://dimsemenov.com/plugins/royal-slider/img/home.jpg" >
-					    <h3>Slide with Image and Text</h3>
-					    <p>This is dummy copy. It is not meant to be read. Accordingly, it is difficult to figure out when to end it. If this were real copy, it would have ended long ago. But then, this is dummy copy. It is not meant to be read. Period.</p>
-					  </div>
-					  <div>
-					    <h3>Slide with Video and Text</h3>
-					    <iframe width="560" height="315" src="//www.youtube.com/embed/igNlbo5U80g" frameborder="0" allowfullscreen></iframe>
-					  </div>
 
-				</section>
 
-				<main>
+				<main class="staticPage">
+					<aside class="headshot">
+						<img src="/build/images/irv-rothman.jpg" alt="Irv Rothman" >
+					</aside>
 					<article>
-						<h1>Heading Level One</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.</p> 
-						<h2>Heading Two</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.</p> 
-						<a href="#" class="button large">Large Button</a>
-						<p>Duis tincidunt, elit vitae faucibus viverra, orci tortor tristique urna, ut vestibulum lacus metus a neque. Fusce iaculis convallis lectus. Donec tincidunt lectus eget libero cursus a fermentum quam interdum. Etiam aliquet accumsan nisl ac rhoncus. Vestibulum sit amet eleifend augue. Vivamus fringilla volutpat nibh, quis volutpat nulla porta eget. Sed eget dolor velit, sed ornare nunc. Phasellus non sem mauris. Nunc a libero dolor. Nam placerat facilisis est a ornare.</p>
-						<a href="#" class="button">Medium Button</a>
-						<h3>Heading Three</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.</p> 
-						<a href="#" class="button small">Small Button</a>
-						<h4>Heading Four</h4>
-						<blockquote>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.
-						</blockquote>
-
-						<div id="tabContent">
-				
-						    <ul class="nav">
-				                <li><a href="#unorderedList" class="current">Unordered List</a></li>
-				                <li><a href="#orderedList">Ordered List</a></li>
-						    </ul>
-							
-						    <div class="list-wrap">
-							
-								<ul id="unorderedList">
-									<li>
-										<h5>Heading Five</h5>
-										<ul>
-											<li>Unordered List Item One</li>
-											<li>List item two</li>
-										</ul>
-									</li>
-								</ul>
-								 
-								 <ul id="orderedList" class="hide">
-									<li>
-										<h6>Heading Six</h6>
-										<ol>
-											<li>Ordered List item one</li>
-											<li>Item two</li>
-											<li>Item three</li>
-										</ol>
-									</li>
-								 </ul>
-						    </div> <!-- END List Wrap -->					 
-						 </div> <!-- END Organic Tabs -->
+						<p>AbcdefghijklmnopqrstuvwxyzAbcd</p>
+						<p>AbcdefghijklmnopqrstuvwxyzAbcdefghijklmn</p>
+						<p>With nearly forty years of executive experience, Irv Rothman is a renowned financial services expert with a track record of excellence. Whether engaging in start-ups, large mergers, joint venture and M&A activities, turnaround situations, or global operations, Irv’s Gutsball mentality has fueled his undeniable success and powerful execution.</p> 
+						<p>As President and CEO of HP Financial Services, Irv leads over 1200 employees and oversees $12.5 billion in assets by championing a culture of trust, collaboration, autonomy, and ethical behavior that works to better serve their customers. </p>
+						<p>Prior to joining HP, Rothman was president and CEO of Compaq Financial Services. A key leader in Compaq’s 1997 start-up, Irv built CFS into a global business across 43 countries, $3.4 billion in assets, and $1 billion in revenue through joint ventures, acquisitions, and creating new operations. In 2002, Rothman cemented his Gutsball ethos with his influence in the HP/Compaq merger, a deal that married Compaq’s global reach with HP’s technological prowess and resulted in a state-of-the-art finance and leasing company now worth over $3 billion in annual revenue. </p>
+						<p>A Rutgers graduate with a MBA from Pepperdine University, Irv started his assent with leadership positions at U.S. Leasing International and Thomson McKinnon Securities before joining AT&amp;T in 1985.  As group president, Rothman built AT&T Capital into a $9 billion corporation.</p>
+						<p>Rothman is the author of Out-Executing the Competition: Building and Growing a Financial Services Company in Any Economy and the upcoming Gutsball, and serves with the U.S. Soccer Foundation, the Equipment Leasing and Finance Association, and Children’s Specialized Hospital of Mountainside, NJ.</p>
+						<p>When he’s not playing Gutsball in the office, Irv lives in the Greater New York City area where he enjoys golfing, rooting for the New York Giants, and spending time with his wife and grandchildren.</p>
 		
 					</article>
 
-					<aside class="sidebar">
+					<aside class="actions">
 						<h3>Aside</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.</p> 
 					</aside>
-				</main>
+				</main> 
 			</div> <!-- END wrapper -->
 
 		</div> <!-- END page wrap -->
