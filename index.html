@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Nimble Agency Pattern Library</title>
+		<meta name="description" content="Enter a description">
+		<meta name="keywords" content="enter, some, keywords, here">
+  		<meta name="author" content="The Nimble Agency">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/build/css/styles.min.css">
+
+		<!-- Add Bower Components -->
+		<link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
+		
+		<style>
+			.demo-col {
+				background-color: #def0fa;
+				text-align: center;
+				padding: 1em 0;
+				display: block;
+				border-radius: 3px;
+			}
+			.row {
+				margin-bottom: 2em;
+			}
+		</style>
+
+
+		<script>
+			// Picture element HTML5 shiv
+			document.createElement( "picture" );
+		</script>
+		<script src="/build/scripts/picturefill.min.js" async></script>
+	</head>
+
+	<body>
+
+		<!-- The Grid System -->
+		<section>
+			<div class="container">
+				<h1>The Grid System</h1>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-12"><div class="demo-col">.col-12</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-6"><div class="demo-col">.col-6</div></div>
+					<div class="col-6"><div class="demo-col">.col-6</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-4"><div class="demo-col">.col-4</div></div>
+					<div class="col-4"><div class="demo-col">.col-4</div></div>
+					<div class="col-4"><div class="demo-col">.col-4</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-3"><div class="demo-col">.col-3</div></div>
+					<div class="col-3"><div class="demo-col">.col-3</div></div>
+					<div class="col-3"><div class="demo-col">.col-3</div></div>
+					<div class="col-3"><div class="demo-col">.col-3</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-5"><div class="demo-col">.col-5</div></div>
+					<div class="col-7"><div class="demo-col">.col-7</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-4"><div class="demo-col">.col-4</div></div>
+					<div class="col-8"><div class="demo-col">.col-8</div></div>
+				</div>	
+
+				<div class="row">
+					<div class="col-3"><div class="demo-col">.col-3</div></div>
+					<div class="col-9"><div class="demo-col">.col-9</div></div>
+				</div>	
+
+				<div class="row">
+					<div class="col-2"><div class="demo-col">.col-2</div></div>
+					<div class="col-10"><div class="demo-col">.col-10</div></div>
+				</div>	
+
+				<div class="row">
+					<div class="col-1"><div class="demo-col">.col-1</div></div>
+					<div class="col-11"><div class="demo-col">.col-11</div></div>
+				</div>																				
+
+				<div class="row">
+					<div class="col-half"><div class="demo-col">.col-half</div></div>
+					<div class="col-half"><div class="demo-col">.col-half</div></div>
+				</div>	
+
+				<div class="row">
+					<div class="col-third"><div class="demo-col">.col-third</div></div>
+					<div class="col-two-thirds"><div class="demo-col">.col-two-thirds</div></div>
+				</div>
+
+				<div class="row">
+					<div class="col-quarter"><div class="demo-col">.col-quarter</div></div>
+					<div class="col-quarter"><div class="demo-col">.col-quarter</div></div>
+					<div class="col-half"><div class="demo-col">.col-half</div></div>
+				</div>									
+			</div>
+		</section>	
+
+
+		<!-- Typography -->
+		<section>
+				<div class="container">
+					<h1>Typography</h1>
+
+					<hr>
+
+					<div class="row">
+						<div class="col-half">
+							<h1>Heading 1</h1>
+							<h2>Heading 2</h2>
+							<h3>Heading 3</h3>
+							<h4>Heading 4</h4>
+							<h5>Heading 5</h5>
+							<h6>Heading 6</h6>
+						</div>
+						<div class="col-half">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate. Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque <a href="#">Link</a> amet lacus. Sed vel purus ac lorem adipiscing varius.</p> 
+
+							<p>Duis tincidunt, elit vitae faucibus viverra, orci tortor tristique urna, ut vestibulum <strong>lacus metus a neque</strong>. Fusce iaculis <em>convallis lectus</em>. Donec tincidunt lectus eget libero cursus a fermentum quam interdum. Etiam aliquet accumsan nisl ac rhoncus. Vestibulum sit amet eleifend augue. Vivamus fringilla volutpat nibh, quis volutpat nulla porta eget. <strike>Sed eget dolor velit, sed ornare nunc.</strike> Phasellus non sem mauris. Nunc a libero dolor. Nam placerat facilisis est a ornare.</p>
+
+<pre><code>.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}</code></pre>
+						</div> <!-- End column -->
+					</div><!-- End row -->
+					<div class="row">
+						<div class="col-half">
+							<h4>Unordered List</h4>
+							<ul>
+								<li>Item 1</li>
+								<li>Item 2</li>
+								<li>Item 3</li>
+								<li>Item 4</li>
+								<li>Item 5</li>
+							</ul>
+						</div> <!-- end col-half -->
+						<div class="col-half">
+							<h4>Ordered List</h4>
+							<ol>
+								<li>Item 1</li>
+								<li>Item 2</li>
+								<li>Item 3</li>
+								<li>Item 4</li>
+								<li>Item 5</li>
+							</ol>
+						</div><!-- End col-half -->
+					</div><!-- End row -->
+					
+					<hr>
+
+					<blockquote>
+						This is a blockquote.
+						<footer><a href="#">This is the author.</a></footer>
+					</blockquote>
+				</div><!-- End container -->
+			</section>	
+
+			<section>
+				<div class="container">
+					<h1>Buttons</h1>
+
+					<hr>
+
+					<div class="row">
+						<div class="col-4">
+							<h4>Button Styles</h4>
+							<p>
+								<button class="btn">Default Style</button>
+								<button class="btn-primary">Primary Style</button>
+							</p>
+						</div>
+						
+						<div class="col-4">
+							<h4>Button Sizes</h4>
+
+							<p><button class="btn-small">Small Size</button> </p>
+							<p><button class="btn">Default Size</button> </p>
+							<p><button class="btn-large">Large Size</button></p>
+						</div>
+						<div class="col-4">
+							<h4>HTML Elements</h4>
+							<p><button class="btn">Button</button></p>
+							<p><a href="#" class="btn">Anchor Tag</a></p>
+							<p><input type="submit" class="btn" value="Submit Input"></p>
+							<p><input type="button" class="btn" value="Button Input"></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Forms</h1>
+
+					<hr>
+
+					<form action="">
+						<div class="row">
+							<div class="col-half">
+								<fieldset>
+									<legend>Inputs</legend>
+									<div class="field-group">
+										<label for="demo-input-1">This Is A Label</label>
+										<input type="text" id="demo-input-1" placeholder="This is a text input">
+
+										<p class="help">This is contextual help for the field above.</p>
+									</div>
+
+									<div class="field-group field-error">
+										<label for="demo-input-2">Error Field</label>
+										<input type="text" id="demo-input-2" placeholder="This is a text input">
+
+										<p class="help">This is an error message for the field above.</p>
+									</div>
+
+									<div class="field-group">
+										<label for="demo-textarea">This is a label</label>
+										<textarea name="demo-textarea" id="demo-textarea" cols="30" rows="10" placeholder="This is a textarea"></textarea>
+									</div>
+								</fieldset>
+							</div>
+							<div class="col-half">
+								<fieldset>
+									<legend>Radio Bubttons and Checkboxes</legend>
+									<div class="field-group">
+										<input type="radio" name="demo-radio" id="demo-radio-1">
+										<label for="demo-radio-1">Radio 1</label>
+
+										<input type="radio" name="demo-radio" id="demo-radio-2">
+										<label for="demo-radio-2">Radio 2</label>
+										
+										<input type="radio" name="demo-radio" id="demo-radio-3">
+										<label for="demo-radio-3">Radio 3</label>
+										
+									</div>
+
+									<div class="field-group">
+										<input type="checkbox" name="demo-checkbox" id="demo-checkbox">
+										<label for="demo-checkbox">This is a checkbox</label>
+									</div>
+								</fieldset>
+							</div> <!-- End col-half -->
+						</div> <!-- End row -->
+					</form>
+
+					<div class="row">
+						<div class="col-4">
+							<form action="">
+								<fieldset>
+									<legend>Sign-in Form</legend>
+
+									<div class="field-group">
+										<label for="sign-in-username">Username: <span class="required">*</span></label>
+										<input type="text" id="sign-in-username" name="sign-in-username">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="sign-in-pwd">Password: <span class="required">*</span></label>
+										<input type="password" id="sign-in-pwd" name="sign-in-pwd">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<input type="checkbox" id="sign-in-checkbox" name="sign-in-checkbox" />
+										<label for="sign-in-checkbox">Remember me</label>
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<input type="submit" class="btn" value="Sign In">
+									</div> <!-- end field-group -->
+
+									<p><em><span class="required">*</span> required fields</em></p>
+								</fieldset>
+							</form>
+						</div> <!-- end col-4 -->
+
+						<div class="col-4">
+							<form action="">
+								<fieldset>
+									<legend>Sign-up Form</legend>
+
+									<div class="field-group">
+										<label for="sign-up-email">Email address: <span class="required">*</span></label>
+										<input type="email" id="sign-up-email" name="sign-up-email">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="sign-up-name">Username: <span class="required">*</span></label>
+										<input type="text" id="sign-up-username" name="sign-up-username">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="sign-up-pwd">Password: <span class="required">*</span></label>
+										<input type="password" id="sign-up-pwd" name="sign-up-pwd">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="sign-up-confirm-pwd">Confirm Password: <span class="required">*</span></label>
+										<input type="password" id="sign-up-confirm-pwd" name="sign-up-confirm-pwd">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<input type="submit" class="btn" value="Sign Up">
+									</div> <!-- end field-group -->
+
+									<p><em><span class="required">*</span> required fields</em></p>
+								</fieldset>
+							</form>					
+						</div> <!-- end col-4 -->
+
+						<div class="col-4">
+							<form action="">
+								<fieldset>
+									<legend>Contact Form</legend>
+
+									<div class="field-group">
+										<label for="contact-name">Name: <span class="required">*</span></label>
+										<input type="text" id="contact-name" name="contact-name">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="contact-email">Email address: <span class="required">*</span></label>
+										<input type="email" id="contact-email" name="contact-email">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="contact-website">Website:</label>
+										<input type="url" id="contact-website" name="contact-website">
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<label for="contact-textarea">Message: <span class="required">*</span></label>
+										<textarea name="contact-textarea" id="contact-textarea" cols="30" rows="10" class="field-fw"></textarea>
+									</div> <!-- end field-group -->
+
+									<div class="field-group">
+										<input type="submit" class="btn" value="Send Message">
+									</div> <!-- end field-group -->
+
+									<p><em><span class="required">*</span> required fields</em></p>
+								</fieldset>
+							</form>
+						</div> <!-- end col-4 -->
+					</div> <!-- end row -->		
+				</div> <!-- end container -->
+			</section>
+
+			<!-- Icons -->
+			<section>
+				<div class="container">
+					
+				
+					<h1>Icons</h1>
+
+					<hr>
+
+					<div class="rom">
+						<div class="col-half">
+							<h4>Bordered Icons</h4>
+							<div class="icon-circle">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Circle</p>
+							
+							<div class="icon-rounded">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Rounded</p>
+
+							<div class="icon-square">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Square</p>
+						</div>
+						<div class="col-half">
+							<h4>Icon Sizes</h4>
+							<div class="icon-circle">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Default</p>
+							
+							<div class="icon-circle icon-large">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Large</p>
+
+							<div class="icon-circle icon-huge">
+								<i class="fa fa-coffee"></i>
+							</div>
+							<p>Huge</p>
+
+
+					
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Feedback</h1>
+
+					<hr>
+
+					<div class="row">
+						<div class="col-half">
+							<div class="alert-information">
+								<p><strong>Information</strong></p>
+								<p>This is the body of the message.</p>
+							</div>
+
+							<div class="alert-error">
+								<p><strong>Error</strong></p>
+								<p>This is the body of the message.</p>
+							</div>
+						</div>
+						<div class="col-half">
+							<div class="alert-warning">
+								<p><strong>Warning</strong></p>
+								<p>This is the body of the message.</p>
+							</div>
+
+							<div class="alert-success">
+								<p><strong>Success</strong></p>
+								<p>This is the body of the message.</p>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Navigation</h1>
+
+					<hr>
+
+					<div class="ro navbar-container">
+						<div class="col-4">
+							<a href="#" class="logo"><img src="/build/images/logo.png" alt="Logo"></a>
+						</div>
+						<div class="col-8">
+							<button class="btn" id="rwd-trigger">Toggle Menu</button>
+							<nav>
+								<ul class="sf-menu">
+									<li><a href="">Item 1</a></li>
+									<li>
+										<a href="">Item 2</a>
+										<ul>
+											<li><a href="">Subitem 1</a></li>
+											<li><a href="">Subitem 2</a></li>
+											<li><a href="">Subitem 3</a></li>
+											<li><a href="">Subitem 4</a></li>
+										</ul>
+									</li>
+									<li><a href="">Item 3</a></li>
+									<li><a href="">Item 4</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Animations</h1>
+
+					<hr>
+
+					<div class="row" id="demo-animations">
+						<div class="col-2">
+							<div class="demo-col">bounce</div>
+						</div>
+						<div class="col-2">
+							<div class="demo-col">flash</div>
+						</div>
+						<div class="col-2">
+							<div class="demo-col">pulse</div>
+						</div>
+						<div class="col-2">
+							<div class="demo-col">rubberBand</div>
+						</div>
+						<div class="col-2">
+							<div class="demo-col">shake</div>
+						</div>
+						<div class="col-2">
+							<div class="demo-col">swing</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Tabs</h1>
+
+					<hr>
+
+					<div class="tabs">
+						<ul class="tabs-links">
+							<li class="active"><a href="#tab-1">First</a></li>
+							<li><a href="#tab-2">Second</a></li>
+							<li><a href="#tab-3">Third</a></li>
+						</ul>
+						<div class="tabs-content">
+							<div class="tab active" id="tab-1">
+								<p>Over the line! Dolor sit amet, consectetur adipiscing elit. Huh? Oh. Yeah. Tape deck. Couple of Creedence tapes. And there was a, uh… my briefcase. Praesent ac magna justo pellentesque ac lectus quis elit blandit fringilla a.</p>
+							</div>
+							<div class="tab" id="tab-2">
+								<p>Please see him, Jeffrey. He's a good man. And thorough. Ut turpis praesent felis. A dick, man! And let me tell you something: I dig your work. Playing one side against the other —in bed with everybody— fabulous stuff, man. Ligula, malesuada suscipit malesuada non, ultrices non urna sed orci ipsum, placerat.</p>
+							</div>
+							<div class="tab" id="tab-3">
+								<p>Playing one side against the other —in bed with everybody— fabulous stuff, man. Ligula, malesuada suscipit malesuada non, ultrices non urna sed orci ipsum, placerat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="container">
+					<h1>Accordions</h1>
+					
+					<hr>
+
+					<div class="accordion">
+						<div class="accordion-element">
+							<a href="#accordion-element-1" class="accordion-element-title">First</a>
+							<div id="accordion-element-1" class="accordion-element-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus fermentum vulputate.</p>
+							</div>
+						</div>
+
+						<div class="accordion-element">
+							<a href="#accordion-element-2" class="accordion-element-title">Second</a>
+							<div id="accordion-element-2" class="accordion-element-content">
+								<p>Quisque ullamcorper tortor quis justo facilisis a fringilla lacus dictum. </p>
+							</div>
+						</div>
+
+						<div class="accordion-element">
+							<a href="#accordion-element-3" class="accordion-element-title">Third</a>
+							<div id="accordion-element-3" class="accordion-element-content">
+								<p>Donec sagittis tempus ante vitae scelerisque. Sed imperdiet, dolor id tincidunt commodo, tellus orci convallis lorem, vel egestas est neque sit amet lacus. Sed vel purus ac lorem adipiscing varius.</p>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</section>
+
+
+			<section>
+				<div class="container">
+					<h1>Carousels</h1>
+
+					<hr>	
+
+					<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-caption-template="Slide no. {{slidenum}} of {{slideCount}} - {{ cycleTitle}}">
+						<div class="cycle-caption"></div>
+
+						<div class="cycle-prev"><i class="fa fa-chevron-left"></i></div>
+						<div class="cycle-next"><i class="fa fa-chevron-right"></i></div>
+
+						<img src="build/images/img-1.jpg" alt="Slider image 1" data-cycle-title="First Image">
+						<img src="build/images/img-2.jpg" alt="Slider image 2" data-cycle-title="Second Image">
+						<img src="build/images/img-3.jpg" alt="Slider image 3" data-cycle-title="Third Image">
+						<img src="build/images/img-4.jpg" alt="Slider image 4" data-cycle-title="Fourth Image">
+						
+					</div>
+				</div>
+			</section>
+
+		<script src="bower_components/jquery/jquery.min.js"></script>
+		<script src="bower_components/superfish/dist/js/superfish.min.js"></script>
+		<script src="bower_components/superfish/dist/js/hoverIntent.js"></script>
+		<script src="bower_components/jquery-cycle2/build/jquery.cycle2.min.js"></script>
+
+		<script src="build/scripts/script.js"></script>
+
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+	</body>
+</html>
